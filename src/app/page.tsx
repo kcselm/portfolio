@@ -1,7 +1,6 @@
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import IconCloud from "@/components/magicui/icon-cloud";
-import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
@@ -145,7 +144,8 @@ export default function Page() {
                 >
                   email
                 </Link>{" "}
-                and I&apos;ll respond as soon as I can. I'd love to connect on{" "}
+                and I&apos;ll respond as soon as I can. I&apos;d love to connect
+                on{" "}
                 <Link
                   href={DATA.contact.social.LinkedIn.url}
                   target="_blank"
