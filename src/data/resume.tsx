@@ -185,7 +185,7 @@ export const DATA = {
       title: "Business Risk Intelligence Intern",
       logoUrl: "/tds.png",
       start: "April 2018",
-      end: "January 2018",
+      end: "January 2019",
       description:
         "Worked with senior developers and accountants on data analysis and frontend web development projects.",
       skills: ["React", "Angular", "Javascript", "Python"],
