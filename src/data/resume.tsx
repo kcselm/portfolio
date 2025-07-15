@@ -1,5 +1,5 @@
-import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { Icons } from "@/components/icons"
+import { HomeIcon, NotebookIcon } from "lucide-react"
 
 export const DATA = {
   name: "Kevin Selm",
@@ -10,14 +10,14 @@ export const DATA = {
   description:
     "Full Stack Web Developer who loves learning and building things ",
   summary:
-    "I'm a Full Stack TypeScript Developer who loves turning ideas into awesome software solutions. I'm all about lifelong learning and keeping up with new tech. Outside of work I still like diving into personal projects to keep my skills sharp and my curiosity happy. I love networking and meeting new people, so lets [connect!](/#contact) and chat soon!",
+    "I'm a Full Stack Developer who loves turning ideas into interesting software solutions. I'm all about lifelong learning and keeping up with new tech. Outside of work I still like diving into personal projects to keep my skills sharp and my curiosity happy. I love networking and meeting new people, so lets [connect](/#contact) and chat soon!",
   avatarUrl: "me.png",
   skills: [
     "HTML",
     "CSS",
     "React",
     "Next.js",
-    "Typescript",
+    "TypeScript",
     "Node.js",
     "Python",
     "C#",
@@ -29,8 +29,8 @@ export const DATA = {
     "git",
   ],
   simple_icon_slugs: [
-    "typescript",
-    "javascript",
+    "TypeScript",
+    "JavaScript",
     "java",
     "react",
     "redux",
@@ -39,6 +39,7 @@ export const DATA = {
     "tailwindcss",
     "nodedotjs",
     "prisma",
+    "drizzle",
     "express",
     "nextdotjs",
     "csharp",
@@ -137,10 +138,10 @@ export const DATA = {
       title: "Frontend Software Developer",
       logoUrl: "/tyler-technologies.svg",
       start: "May 2024",
-      end: "Current",
+      end: "October 2024",
       description:
-        "Developing WCAG-compliant web pages and custom reusable components for clients servicing millions of users, significantly enhancing inclusivity and usability.",
-      skills: ["Typescript", "HTML", "CSS"],
+        "Developed WCAG-compliant web pages and custom reusable components for clients servicing millions of users, significantly enhancing inclusivity and usability.",
+      skills: ["TypeScript", "HTML", "CSS", "Sharepoint"],
     },
     {
       company: "Leidos",
@@ -152,7 +153,7 @@ export const DATA = {
       end: "December 2023",
       description:
         "Led frontend development for a web application that provided admins and team leads with a customizable dashboard to visualize team data and metrics.",
-      skills: ["React", "Typescript", "HTML", "CSS"],
+      skills: ["React", "TypeScript", "C#", "HTML", "CSS", "MySQL"],
     },
     {
       company: "Sur-Seal",
@@ -164,7 +165,7 @@ export const DATA = {
       end: "June 2023",
       description:
         "Fullstack developer responsible for maintaining and enhancing in-house sales and product application, creating data visualizations and analytical tools, and automating reporting processes.",
-      skills: ["C#", "React", "Javacript", "Python", "PowerBI", "SQL"],
+      skills: ["C#", "React", "Next.js", "TypeScript", "JavaScript", "Python", "SQL", "PowerBI", "MySQL"],
     },
     {
       company: "TDS Telecom",
@@ -176,7 +177,7 @@ export const DATA = {
       end: "February 2021",
       description:
         "Backend network application developer working on provisioning software and network inventory management applications.",
-      skills: ["Python", "Java", "SQL", "Bash scripting", "Perl"],
+      skills: ["Python", "Java", "SQL", "Bash scripting", "Perl", "Oracle"],
     },
     {
       company: "TDS Telecom ",
@@ -188,7 +189,7 @@ export const DATA = {
       end: "January 2019",
       description:
         "Worked with senior developers and accountants on data analysis and frontend web development projects.",
-      skills: ["React", "Angular", "Javascript", "Python"],
+      skills: ["React", "Angular", "JavaScript", "Python", "MongoDB"],
     },
   ],
   education: [
@@ -201,4 +202,37 @@ export const DATA = {
       end: "2019",
     },
   ],
-};
+  projects: [
+    {
+      title: "Coffee Note",
+      href: "https://coffee-note-eta.vercel.app/",
+      description:
+        "Keep track of all of your favorite coffees with this web app",
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Prisma",
+        "tRPC",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      image: "/coffeeNote.png",
+      video: "",
+      links: [
+        {
+          type: "Website",
+          href: "https://coffee-note-eta.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/kcselm/coffee-note",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      className: "",
+    },
+  ],
+}
