@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm install *)",
+      "Bash(npx tsc *)",
+      "Bash(pnpm dev *)",
+      "Bash(curl *)",
+      "Bash(pnpm build *)"
+    ]
+  }
+}

@@ -1,4 +1,20 @@
 import { Icons } from "@/components/icons"
+import { Azure } from "@/components/ui/svgs/azure"
+import { Csharp } from "@/components/ui/svgs/csharp"
+import { Css3 } from "@/components/ui/svgs/css3"
+import { Docker } from "@/components/ui/svgs/docker"
+import { Git } from "@/components/ui/svgs/git"
+import { Html5 } from "@/components/ui/svgs/html5"
+import { Java } from "@/components/ui/svgs/java"
+import { Javascript } from "@/components/ui/svgs/javascript"
+import { Mysql } from "@/components/ui/svgs/mysql"
+import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark"
+import { Nodejs } from "@/components/ui/svgs/nodejs"
+import { Postgresql } from "@/components/ui/svgs/postgresql"
+import { Python } from "@/components/ui/svgs/python"
+import { ReactLight } from "@/components/ui/svgs/reactLight"
+import { Sql } from "@/components/ui/svgs/sql"
+import { Typescript } from "@/components/ui/svgs/typescript"
 import { HomeIcon, NotebookIcon } from "lucide-react"
 
 export const DATA = {
@@ -13,58 +29,22 @@ export const DATA = {
     "I'm a Full Stack Developer who loves turning ideas into interesting software solutions. I'm all about lifelong learning and keeping up with new tech. Outside of work I still like diving into personal projects to keep my skills sharp and my curiosity happy. I love networking and meeting new people, so lets [connect](/#contact) and chat soon!",
   avatarUrl: "me.png",
   skills: [
-    "HTML",
-    "CSS",
-    "React",
-    "Next.js",
-    "TypeScript",
-    "JavaScript",
-    "Node.js",
-    "Python",
-    "C#",
-    "Java",
-    "SQL",
-    "PostgreSQL",
-    "MySQL",
-    "Docker",
-    "Azure",
-    "Git",
-  ],
-  simple_icon_slugs: [
-    "typescript",
-    "javascript",
-    "java",
-    "react",
-    "angular",
-    "vuedotjs",
-    "redux",
-    "html5",
-    "css3",
-    "tailwindcss",
-    "nodedotjs",
-    "prisma",
-    "drizzle",
-    "express",
-    "nextdotjs",
-    "csharp",
-    "microsoftazure",
-    "powerbi",
-    "python",
-    "django",
-    "mysql",
-    "postgresql",
-    "trpc",
-    "vercel",
-    "jest",
-    "cypress",
-    "docker",
-    "git",
-    "jira",
-    "github",
-    "gitlab",
-    "mongodb",
-    "visualstudiocode",
-    "webpack",
+    { name: "HTML", icon: Html5 },
+    { name: "CSS", icon: Css3 },
+    { name: "React", icon: ReactLight },
+    { name: "Next.js", icon: NextjsIconDark },
+    { name: "TypeScript", icon: Typescript },
+    { name: "JavaScript", icon: Javascript },
+    { name: "Node.js", icon: Nodejs },
+    { name: "Python", icon: Python },
+    { name: "C#", icon: Csharp },
+    { name: "Java", icon: Java },
+    { name: "SQL", icon: Sql },
+    { name: "PostgreSQL", icon: Postgresql },
+    { name: "MySQL", icon: Mysql },
+    { name: "Docker", icon: Docker },
+    { name: "Azure", icon: Azure },
+    { name: "Git", icon: Git },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },

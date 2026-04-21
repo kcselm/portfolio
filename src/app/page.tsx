@@ -1,10 +1,8 @@
 import BlurFade from "@/components/magicui/blur-fade"
 import BlurFadeText from "@/components/magicui/blur-fade-text"
-import IconCloud from "@/components/magicui/icon-cloud"
 import { ProjectCard } from "@/components/project-card"
 import { ResumeCard } from "@/components/resume-card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Badge } from "@/components/ui/badge"
 import { DATA } from "@/data/resume"
 import Link from "next/link"
 import Markdown from "react-markdown"
@@ -111,20 +109,25 @@ export default function Page() {
         </div>
       </section>
       <section id="skills">
-        <div className="flex min-h-0 flex-col gap-y-3">
+        <div className="flex min-h-0 flex-col gap-y-4">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Skills</h2>
           </BlurFade>
-          <div className="flex flex-wrap gap-1">
+          <div className="flex flex-wrap gap-2">
             {DATA.skills.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill}>{skill}</Badge>
+              <BlurFade
+                key={skill.name}
+                delay={BLUR_FADE_DELAY * 10 + id * 0.05}
+              >
+                <div className="border bg-background border-border ring-2 ring-border/20 rounded-xl h-8 w-fit px-4 flex items-center gap-2">
+                  <skill.icon className="size-4 rounded overflow-hidden object-contain" />
+                  <span className="text-foreground text-sm font-medium">
+                    {skill.name}
+                  </span>
+                </div>
               </BlurFade>
             ))}
           </div>
-        </div>
-        <div className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-lg px-28 pb-20 pt-8 ">
-          <IconCloud iconSlugs={DATA.simple_icon_slugs} />
         </div>
       </section>
       <section id="projects">
