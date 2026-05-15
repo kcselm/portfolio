@@ -12,12 +12,14 @@ export function ModeToggle({ className }: { className?: string }) {
     <Button
       type="button"
       variant="ghost"
-      size="icon"
-      className={cn("px-2", className)}
+      className={cn(
+        "size-full p-0 rounded-3xl flex items-center justify-center",
+        className
+      )}
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
-      <SunIcon className="h-[1.2rem] w-[1.2rem] text-neutral-800 dark:hidden dark:text-neutral-200" />
-      <MoonIcon className="hidden h-[1.2rem] w-[1.2rem] text-neutral-800 dark:block dark:text-neutral-200" />
+      <SunIcon className="size-5 text-neutral-800 dark:hidden dark:text-neutral-200" />
+      <MoonIcon className="hidden size-5 text-neutral-800 dark:block dark:text-neutral-200" />
     </Button>
   );
 }
