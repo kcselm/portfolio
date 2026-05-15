@@ -112,6 +112,10 @@ export const DATA = {
       imageUrl: "/showcase/ultimate.jpg",
       altText: "Playing club ultimate frisbee",
     },
+    {
+      imageUrl: "/showcase/chess-with-gza.jpeg",
+      altText: "Playing chess with GZA from the Wu-Tang Clan",
+    },
   ],
 
   work: [
