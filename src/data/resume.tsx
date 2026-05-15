@@ -116,6 +116,19 @@ export const DATA = {
 
   work: [
     {
+      company: "Software Technology Group",
+      href: "https://www.stgconsulting.com/",
+      location: "Remote",
+      title: "Senior Fullstack Engineer",
+      logoUrl: "/stg.png",
+      logoClassName: "p-2",
+      start: "September 2025",
+      end: "Current",
+      description:
+        "Delivering production-grade fullstack software quickly by combining solid engineering fundamentals with AI-driven and agentic workflows, keeping a sharp focus on architecture, code quality, and shipping features users actually enjoy.",
+      skills: ["React", "TypeScript", "C#", ".NET", "Tailwind CSS", "SQL", "Azure"],
+    },
+    {
       company: "Tyler Technologies",
       href: "https://www.tylertech.com/",
       location: "Remote",

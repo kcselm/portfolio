@@ -1,8 +1,8 @@
 "use client";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
 import { Card, CardHeader } from "@/components/ui/card";
+import { SkillBadge } from "@/components/skill-badge";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { ChevronRightIcon } from "lucide-react";
@@ -21,6 +21,7 @@ interface ResumeCardProps {
   period: string;
   description?: string;
   skills?: string[];
+  logoClassName?: string;
 }
 export const ResumeCard = ({
   logoUrl,
@@ -31,6 +32,7 @@ export const ResumeCard = ({
   period,
   description,
   skills,
+  logoClassName,
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
@@ -54,7 +56,7 @@ export const ResumeCard = ({
             <AvatarImage
               src={logoUrl}
               alt={altText}
-              className="object-contain"
+              className={cn("object-contain", logoClassName)}
             />
             <AvatarFallback>{altText[0]}</AvatarFallback>
           </Avatar>
@@ -93,14 +95,14 @@ export const ResumeCard = ({
               className="mt-2 text-xs sm:text-sm"
             >
               {description}
-              <div className="flex flex-wrap gap-1 mt-3">
+              <div className="flex flex-wrap gap-1.5 mt-3">
                 {skills &&
                   skills.map((skill, id) => (
                     <BlurFade
                       key={skill}
                       delay={BLUR_FADE_DELAY * 10 + id * 0.05}
                     >
-                      <Badge key={skill}>{skill}</Badge>
+                      <SkillBadge name={skill} size="sm" />
                     </BlurFade>
                   ))}
               </div>
