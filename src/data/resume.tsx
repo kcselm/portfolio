@@ -126,7 +126,15 @@ export const DATA = {
       end: "Current",
       description:
         "Delivering production-grade fullstack software quickly by combining solid engineering fundamentals with AI-driven and agentic workflows, keeping a sharp focus on architecture, code quality, and shipping features users actually enjoy.",
-      skills: ["React", "TypeScript", "C#", ".NET", "Tailwind CSS", "SQL", "Azure"],
+      skills: [
+        "React",
+        "TypeScript",
+        "C#",
+        ".NET",
+        "Tailwind CSS",
+        "SQL",
+        "Azure",
+      ],
     },
     {
       company: "Tyler Technologies",
@@ -137,7 +145,7 @@ export const DATA = {
       start: "May 2024",
       end: "October 2024",
       description:
-        "Developed WCAG-compliant web pages and custom reusable components for clients servicing millions of users, significantly enhancing inclusivity and usability.",
+        "Built WCAG-compliant pages and reusable components for client products serving millions of users, with a focus on accessibility and inclusivity.",
       skills: ["TypeScript", "HTML", "CSS", "Sharepoint"],
     },
     {
@@ -149,7 +157,7 @@ export const DATA = {
       start: "June 2023",
       end: "December 2023",
       description:
-        "Led frontend development for a web application that provided admins and team leads with a customizable dashboard to visualize team data and metrics.",
+        "Led frontend development for a customizable analytics dashboard that gave admins and team leads a clear view of team data and metrics, prioritizing clean component design and an interface people actually wanted to open.",
       skills: ["React", "TypeScript", "C#", "HTML", "CSS", "MySQL"],
     },
     {
@@ -161,7 +169,7 @@ export const DATA = {
       start: "February 2021",
       end: "June 2023",
       description:
-        "Fullstack developer responsible for maintaining and enhancing in-house sales and product application, creating data visualizations and analytical tools, and automating reporting processes.",
+        "Fullstack engineer developing an in-house sales and product application, also building data analysis tools and reporting automation that replaced hours of manual work.",
       skills: [
         "C#",
         "React",
@@ -172,6 +180,7 @@ export const DATA = {
         "SQL",
         "PowerBI",
         "MySQL",
+        "WordPress",
       ],
     },
     {
@@ -183,7 +192,7 @@ export const DATA = {
       start: "January 2019",
       end: "February 2021",
       description:
-        "Backend network application developer working on provisioning software and network inventory management applications.",
+        "Built backend network applications powering provisioning workflows and inventory management, anchored in reliability, clean data flows, and systems that quietly do their job at scale.",
       skills: [
         "Python",
         "Django",
@@ -204,7 +213,7 @@ export const DATA = {
       start: "April 2018",
       end: "January 2019",
       description:
-        "Worked with senior developers and accountants on data analysis and frontend web development projects.",
+        "Partnered with senior developers and accountants on data analysis and frontend projects, learning the craft of shipping production code while building practical tools the team relied on day to day.",
       skills: ["React", "Angular", "JavaScript", "Python", "MongoDB"],
     },
   ],

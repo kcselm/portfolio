@@ -23,6 +23,7 @@ import { Perl } from "@/components/ui/svgs/perl";
 import { Shell } from "@/components/ui/svgs/shell";
 import { Tailwind } from "@/components/ui/svgs/tailwind";
 import { DotNet } from "@/components/ui/svgs/dotnet";
+import { WordPress } from "@/components/ui/svgs/wordpress";
 import { cn } from "@/lib/utils";
 import type { SVGProps } from "react";
 
@@ -62,6 +63,7 @@ const SKILL_ICONS: Record<string, IconComponent> = {
   tailwindcss: Tailwind,
   ".net": DotNet,
   dotnet: DotNet,
+  wordpress: WordPress,
 };
 
 export const getSkillIcon = (name: string): IconComponent | undefined =>
