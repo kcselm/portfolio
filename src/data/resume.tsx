@@ -145,7 +145,8 @@ export const DATA = {
       href: "https://www.tylertech.com/",
       location: "Remote",
       title: "Frontend Software Developer",
-      logoUrl: "/tyler-technologies.svg",
+      logoUrl: "/tyler-technologies-icon.svg",
+      logoClassName: "p-2",
       start: "May 2024",
       end: "October 2024",
       description:
@@ -157,7 +158,8 @@ export const DATA = {
       href: "https://www.leidos.com/",
       location: "Remote",
       title: "Frontend Software Developer",
-      logoUrl: "/leidos.svg",
+      logoUrl: "/leidos-airplane.svg",
+      logoClassName: "p-2",
       start: "June 2023",
       end: "December 2023",
       description:
